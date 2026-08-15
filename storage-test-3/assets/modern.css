@@ -43,7 +43,7 @@ img{max-width:100%;display:block}
 
 /* hero */
 .hero{position:relative;min-height:78vh;display:flex;align-items:center;background-size:cover;background-position:center;color:#fff}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(102deg,rgba(12,13,17,.85),rgba(12,13,17,.30))}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(102deg,rgba(12,13,17,.78),rgba(12,13,17,.18))}
 .hero .container{position:relative;z-index:2}
 .hero h1{color:#fff;max-width:17ch;margin-bottom:.35em}
 .hero .lead{font-size:1.2rem;color:#e9ebf0;max-width:56ch;margin-bottom:1.7rem}
