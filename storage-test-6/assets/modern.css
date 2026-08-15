@@ -89,6 +89,7 @@ table.rate td:last-child{font-weight:800;color:var(--brand);white-space:nowrap}
 
 /* gallery */
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.gallery.g2{grid-template-columns:repeat(2,1fr)}
 .gallery figure{margin:0;overflow:hidden;border-radius:var(--radius);box-shadow:var(--shadow)}
 .gallery img{aspect-ratio:4/3;object-fit:cover;width:100%;transition:.45s ease}
 .gallery figure:hover img{transform:scale(1.07)}
