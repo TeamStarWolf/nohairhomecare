@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 :root{
-  --brand:#d90037; --brand-2:#ab002b; --ink:#15171c; --body:#3a3f49; --muted:#6b7280;
+  --brand:#22752d; --brand-2:#1a5b23; --ink:#15171c; --body:#3a3f49; --muted:#6b7280;
   --line:#e8eaee; --bg:#ffffff; --bg-alt:#f6f7f9; --dark:#131419;
   --radius:16px; --shadow:0 6px 24px rgba(16,18,25,.07); --shadow-lg:0 20px 50px rgba(16,18,25,.14);
   --maxw:1180px;
@@ -35,7 +35,7 @@ img{max-width:100%;display:block}
 .btn{display:inline-block;padding:.85rem 1.6rem;border-radius:11px;font-weight:700;font-size:.95rem;
   transition:.18s ease;cursor:pointer;border:2px solid transparent;text-align:center}
 .btn-brand{background:var(--brand);color:#fff!important}
-.btn-brand:hover{background:var(--brand-2);transform:translateY(-2px);box-shadow:0 12px 26px rgba(217,0,55,.32)}
+.btn-brand:hover{background:var(--brand-2);transform:translateY(-2px);box-shadow:0 12px 26px rgba(34,117,45,.32)}
 .btn-outline{border-color:var(--line);color:var(--ink)!important;background:#fff}
 .btn-outline:hover{border-color:var(--brand);color:var(--brand)!important}
 .btn-lg{padding:1rem 2.1rem;font-size:1.02rem}
@@ -55,7 +55,7 @@ img{max-width:100%;display:block}
 .section.alt{background:var(--bg-alt)}
 .section.tight{padding:3.5rem 0}
 .section-head{max-width:62ch;margin-bottom:2.6rem}
-.section-head .eyebrow{color:var(--brand);background:rgba(217,0,55,.10)}
+.section-head .eyebrow{color:var(--brand);background:rgba(34,117,45,.10)}
 .lead{font-size:1.14rem;color:var(--muted)}
 .prose p{max-width:70ch}
 .subhead{color:var(--brand);font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:.8rem;margin:2rem 0 .6rem}
@@ -76,7 +76,7 @@ img{max-width:100%;display:block}
 .checks{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.7rem 2rem}
 .checks li{padding-left:1.9rem;position:relative;font-weight:500;color:var(--ink)}
 .checks li::before{content:'';position:absolute;left:0;top:.15em;width:1.2rem;height:1.2rem;border-radius:50%;
-  background:rgba(217,0,55,.12);color:var(--brand)}
+  background:rgba(34,117,45,.12);color:var(--brand)}
 .checks li::after{content:'✓';position:absolute;left:.28rem;top:0;color:var(--brand);font-weight:800;font-size:.85rem}
 
 /* rate tables */
@@ -106,7 +106,7 @@ table.rate td:last-child{font-weight:800;color:var(--brand);white-space:nowrap}
 
 /* forms */
 .field{width:100%;padding:.9rem 1.05rem;border:1px solid var(--line);border-radius:11px;font:inherit;margin-bottom:.85rem;background:#fff;color:var(--ink)}
-.field:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(217,0,55,.13)}
+.field:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(34,117,45,.13)}
 .info-card{background:var(--bg-alt);border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem}
 .info-card p{margin:.2rem 0}
 
