@@ -21,10 +21,13 @@ const SECURITY_HEADERS = {
   "Permissions-Policy":
     "geolocation=(), microphone=(), camera=(), interest-cohort=()",
   "Content-Security-Policy":
-    "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
+    "default-src 'self'; " +
+    "script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://static.cloudflareinsights.com; " +
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
     "font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; " +
-    "script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; " +
-    "form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+    "frame-src https://challenges.cloudflare.com; " +
+    "connect-src 'self' https://challenges.cloudflare.com https://static.cloudflareinsights.com; " +
+    "object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
 };
 
 export default {
