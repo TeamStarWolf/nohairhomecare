@@ -136,9 +136,9 @@ table.rate td:last-child{font-weight:800;color:var(--brand);white-space:nowrap}
 @media(max-width:560px){.grid-3,.grid-4,.grid-2{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}}
 
 /* voted-best award badge */
-.hero-badge{position:absolute;right:6%;top:50%;transform:translateY(-50%);width:172px;height:auto;aspect-ratio:240/258;z-index:3;
-  filter:drop-shadow(0 14px 28px rgba(0,0,0,.42));animation:vbIn .6s ease both}
-@keyframes vbIn{from{opacity:0;transform:translateY(-50%) scale(.85) rotate(-8deg)}to{opacity:1;transform:translateY(-50%) scale(1) rotate(-6deg)}}
+.hero-badge{position:absolute;right:5%;bottom:26px;width:104px;height:auto;aspect-ratio:240/258;z-index:3;
+  filter:drop-shadow(0 10px 22px rgba(0,0,0,.4));animation:vbIn .6s ease both}
+@keyframes vbIn{from{opacity:0;transform:scale(.82) rotate(-8deg)}to{opacity:1;transform:scale(1) rotate(-5deg)}}
 .badge-inline{width:150px;height:auto;aspect-ratio:240/258;flex:0 0 auto;filter:drop-shadow(0 8px 20px rgba(16,18,25,.18))}
 @media(max-width:1000px){.hero-badge{width:120px;right:4%}}
-@media(max-width:760px){.hero-badge{position:static;transform:rotate(-4deg);width:120px;margin-top:1.4rem;animation:none}}
+@media(max-width:760px){.hero-badge{position:static;transform:rotate(-4deg);width:84px;margin-top:1.3rem;animation:none}}
