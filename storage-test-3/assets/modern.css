@@ -185,7 +185,7 @@ table.rate td:last-child{font-weight:800;color:var(--brand);white-space:nowrap}
 .size-chip small{font-weight:700;color:var(--muted);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase}
 .prow.featured{box-shadow:inset 3px 0 0 var(--brand);background:rgba(61,159,249,.03)}
 .prow .btn{border:0;background:none;padding:.25rem 0;color:var(--brand)!important;font-weight:700;box-shadow:none}
-.prow .btn::after{content:' 92'}
+.prow .btn::after{content:" →"}
 .prow .btn:hover{transform:none;text-decoration:underline}
 .seg button:focus-visible,.btn:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
