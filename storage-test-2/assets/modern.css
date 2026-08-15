@@ -142,3 +142,17 @@ table.rate td:last-child{font-weight:800;color:var(--brand);white-space:nowrap}
 .badge-inline{width:150px;height:auto;aspect-ratio:240/258;flex:0 0 auto;filter:drop-shadow(0 8px 20px rgba(16,18,25,.18))}
 @media(max-width:1000px){.hero-badge{width:120px;right:4%}}
 @media(max-width:760px){.hero-badge{position:static;transform:rotate(-4deg);width:84px;margin-top:1.3rem;animation:none}}
+
+/* intro row (badge | tech features | conveniently located) — Big Oak layout */
+.intro-row{display:grid;grid-template-columns:auto 1fr 1.3fr;gap:48px;align-items:center}
+.intro-badge{display:flex;justify-content:center}
+.intro-row .subhead{margin-top:0}
+@media(max-width:900px){.intro-row{grid-template-columns:1fr;gap:28px;text-align:center}
+  .intro-badge{order:-1}.intro-row .checks{display:inline-grid;text-align:left}}
+
+/* footer trust / member strip */
+.member-strip{display:flex;flex-wrap:wrap;gap:30px;justify-content:center;padding:2.4rem 0 .5rem;margin-top:1rem;border-top:1px solid #2a2c33}
+.seal{display:flex;flex-direction:column;align-items:center;gap:.55rem;color:#c3c7cf;font-size:.76rem;font-weight:600;
+  letter-spacing:.04em;text-transform:uppercase;width:130px;text-align:center}
+.seal .ring{width:56px;height:56px;border-radius:50%;border:2px solid #f4d58a;display:flex;align-items:center;justify-content:center;
+  color:#f4d58a;font-size:1.35rem;background:rgba(244,213,138,.07)}
